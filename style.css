@@ -110,3 +110,147 @@ section{
 .right-side{
     width: 50%;
 }
+
+
+
+
+
+
+
+
+
+/*Publicaciones*/
+body {
+    background-color: #fafafa;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .post {
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.post img {
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.post .username {
+  font-weight: bold;
+}
+
+.post .likes {
+  margin-bottom: 20px;
+}
+
+.post .comment {
+  margin-bottom: 10px;
+}
+
+.post .comment .username {
+  font-weight: bold;
+}
+
+.post .comment .text {
+  margin-left: 10px;
+}
+
+
+#post-profile-story {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    padding: 1px;
+}
+#post-nick {
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 17px;
+    color: #262626;
+}
+#comment-input {
+    color: #262626;
+    font-size: 14px;
+    outline: none;
+    text-align: start;
+}
+#icons {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#side-profile {/*** Right Panel ***/
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#side-nick {/* Profile Nick */
+    color: #262626;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+#side-name {/* Profile Name and Surname */
+    font-size: 14px;
+    color: #8e8e8e;
+}
+#switch {
+    font-size: 12px;
+    color: #0095f6;
+    font-weight: 600;
+    cursor: pointer;
+}
+#suggestion {/* Suggestion For You */
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 600;
+}
+
+#see-all {
+    cursor: pointer;
+    font-size: 12px;
+    color: #262626;
+    font-weight: 600;
+}
+#suggestion-photo {/* Account Suggestion Photos */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+#suggestion-nick {/* Account Suggestion Nick */
+    font-size: 14px;
+    color: #262626;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+#suggestion-nick:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+#suggestion-info {/* Followed by | New to IG */
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: -4px;
+}
+#suggestion-follow {/*** Right Panel End ***/
+    font-size: 12px;
+    color: #0095f6;
+    cursor: pointer;
+    font-weight: 600;
+}
